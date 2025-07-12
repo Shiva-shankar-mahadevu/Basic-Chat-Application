@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1{
+    text-align: center;
+}
+button{
+    background-color: red;
+    color: white;
+    border: 1px solid silver;
+    font-size: 24px;
+    width: 100px;
+    padding: 10px 14px;
+    border-radius: 2em;
+}
+button:active{
+    background-color: rgb(169, 16, 16);
+}
+input{
+    font-size: 24px;
+    padding: 10px 8px;
+    border-radius: 2rem;
+}
+#user{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+}
+#form{
+    position: fixed;
+    bottom: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#message{
+    width: 70%;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-100 p-6">
+    <h1 class="text-3xl font-bold underline mb-4">Chat Application</h1>
+    <div id="messages" class="mb-4 p-4 border border-gray-300 rounded bg-black h-64 overflow-y-auto">
+    </div>
+    <div id="form" class="flex">
+        <input type="text" name="message" id="message" class="border-2 border-red border-solid p-2 flex-grow mr-2" placeholder="Type your message..."> <br>
+        <button id="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Send</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
